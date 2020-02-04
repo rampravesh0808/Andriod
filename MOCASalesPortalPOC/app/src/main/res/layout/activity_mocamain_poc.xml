@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:name=".App"
+    tools:context=".MOCAMainActivityPOC">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="650dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.3"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.01999998"
+        android:padding="5dp">
+
+        <TextView
+            android:id="@+id/textViewBeaconInitMsg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textSize="20dp"
+            android:background="#ADFF2F"
+            android:layout_centerInParent="true"
+            android:layout_gravity="center"
+            />
+
+        <TextView
+            android:id="@+id/textViewIMEINuber"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:background="#F6F3F3"
+            android:text=""
+            android:layout_marginTop="20dp"
+            />
+
+        <TextView
+            android:id="@+id/textViewBeaconDeviceName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textSize="20dp"
+            android:background="#F6F3F3"
+            android:layout_marginTop="20dp"
+            />
+
+        <TextView
+            android:id="@+id/textBeaconInRage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textSize="20dp"
+            android:background="#FFA500"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            />
+
+        <TextView
+            android:id="@+id/textViewBeaconNotificationMsg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textSize="20dp"
+            android:background="#F6F3F3"
+            android:layout_marginTop="20dp"
+            />
+
+        <TextView
+            android:id="@+id/textBeaconRangeMsg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textSize="20dp"
+            android:background="#FFA500"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            />
+
+        <TextView
+            android:id="@+id/textViewBeaconEnterMsg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textSize="20dp"
+            android:background="#F6F3F3"
+            android:layout_marginTop="20dp"
+            />
+
+        <TextView
+            android:id="@+id/textViewBeaconExitMsg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textSize="20dp"
+            android:background="#F6F3F3"
+            android:layout_marginTop="20dp"
+            />
+
+
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>
